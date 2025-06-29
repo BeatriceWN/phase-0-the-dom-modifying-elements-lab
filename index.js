@@ -1,6 +1,6 @@
 // remove the <main> element with id="main"
 const main = document.getElementById('main'); //get the main element
-if (main) main.remove(); // remove it from the DOM
+main.remove(); // remove it from the DOM
 
 // create a new <h1> element
 const newHeader = document.createElement('h1');
